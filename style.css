@@ -131,25 +131,29 @@ main {
   padding: 1em;
 }
 
+
+.container {
+  display: grid;
+  gap: 2em;
+}
+
 .label-container{
   font-size: 1rem;
-  padding: 1em;
+  position: relative;
+  display: grid;
+  gap: 1em;
+}
+
+.label-container > img{
+  position: absolute;
+  top: 55px;
+  left: 20px;
 }
 
 * label{
   color: var(--color-neutral-600-);
 }
 
-.input-container{
-  position: relative;
-  margin-top: 5px;
-}
-
-.input-container > img {
-  position:absolute;
-  left : 20px;
-  top: 15px;
-}
 
 .input {
   max-width: 13em;
@@ -163,15 +167,12 @@ main {
   font-size: 24px;
 }
 
+
 .input-style:focus-visible{
   border-color: var(--color-primary-);
   border: 1px solid var(--color-primary-);
 }
 
-.container {
-  display: grid;
-  place-items: center;
-}
 
 .tip-container {
   display: grid;
@@ -275,17 +276,34 @@ main {
   main{
     margin-top: -10em;
     height: 480px;
-    width: 850px;
+    width: 1000px;
     border-radius: 2em;
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 2em;
+    grid-template-columns: 55% 45%;
+    
+  }
+
+  .input {
+    max-width: 22em;
+  }
+
+  .tip-container {
+    display: grid;
+    grid-template-columns: repeat(3, 9em);
+    grid-template-rows: repeat(2,3em);
+    gap: 1em;
+    margin-top: 10px;
   }
 
   .total-container{
+    width: 400px;
     height: 420px;
-    gap: 3em;
-    padding: 3.5em 1.5em 1.5em 1.5em;
+    gap: 2em;
+    padding: 3em 1.5em 1.5em 1.5em;
+  }
+
+  .label-container-total > div {
+    font-size: 42px;
   }
 
   .resetButton{
