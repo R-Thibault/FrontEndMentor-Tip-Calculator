@@ -35,8 +35,8 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/R-Thibault/FrontEndMentor-Tip-Calculator.git
+- Live Site URL: https://r-thibault.github.io/FrontEndMentor-Tip-Calculator/
 
 ## My process
 
@@ -50,7 +50,6 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@R-Thibault](https://www.frontendmentor.io/profile/R-Thibault)
 
 
